@@ -81,12 +81,22 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
-        }
+        },
+         {
+          icon: 'mdi-chart-bubble',
+          title: 'create',
+          to: '/create'
+        },
+         {
+          icon: 'mdi-chart-bubble',
+          title: 'read',
+          to: '/read'
+        },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'EMPLOYEE DETAILS'
     }
   }
 }
